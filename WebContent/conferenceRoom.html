@@ -1,0 +1,391 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>정부세종청사 회의실</title>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="./css/jquery.mobile-1.4.3.css"/>
+<script src="./js/jquery-1.9.1.js"></script>
+<script src="./js/jquery.mobile-1.4.3.js"></script>
+<style>
+	.sec{font-family:"Times New Romn", Times, Serif;
+		background-color:#f0f0f0;
+		color:white;}
+	table{border-style:groove;		  
+		width:100%;	
+		color:black;
+		border-collapse:collapse;		
+		word-break:break-all;}
+	h4{color:blue;}
+	td{border:1px solid black; 		
+		text-align:center;}
+	th{border:1px solid black;}		
+	caption{text-align:left;}		
+	thead{background-color:aqua;
+		text-color:white;
+		border-bottom:double;
+		border-bottom-color:gray;}	
+	tbody{background-color:#f7f7f0;}
+</style>
+<script type="text/javascript">
+	$(window).on("orientationchange",function(e){		
+		if(e.orientation=='portrait'){
+			
+		}
+	});
+</script>
+</head>
+<body>	
+<!-- 1~6동 회의실 -->
+<section class="sec" data-role="page" id="1~6">
+	<!--  단계 선택 내비게이션 바(div~/div) -->
+	<div data-role="navbar" data-position="fixed">	
+		<ul>
+			<li><a href="#1~6" class="ui-btn-active ui-state-persist">1~6동</a></li>
+			<li><a href="#7~8">7, 8동</a></li>
+			<li><a href="#9~15">9~15동</a></li>
+			<li><a href="#16~17">16, 17동</a></li>
+		</ul>	
+	</div>
+	<h4>
+	&nbsp;&nbsp;&nbsp;☏ <a href="tel:044-200-1198">044-200-1198</a><br>		
+	&nbsp;&nbsp;&nbsp;이용가능 시간 09:00~18:00
+	</h4>	
+	<table>
+	<caption>&nbsp;&nbsp;&nbsp;◈ 1~6동 회의실 안내</caption>	
+		<!-- column 간격 설정 -->
+		<colgroup>
+			<col width="18%">
+			<col width="31%">
+			<col width="25%">
+			<col width="*%">
+		</colgroup>		
+		<thead>
+			<tr><th>구분</th><th>회의실</th><th>위치</th><th>수용인원</th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td>강당동</td><td>대강당</td><td>강당동</td><td>623명</td>
+			</tr>
+			<tr>
+				<td rowspan="6">1동</td><td>다목적대강당</td><td>103호</td><td>150명</td>
+			</tr>
+			<tr>
+				<td>대회의실</td><td>353호</td><td>108명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td>	<td>358호</td><td>36명</td>
+			</tr>
+			<tr>
+				<td>중회의실2</td><td>354호</td><td>24명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td>	<td>452호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>451호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>2동</td><td>다목적홀</td><td>356호</td><td>300명(입식)</td>
+			</tr>
+			<tr>
+				<td rowspan="5">4동</td><td>중회의실1</td><td rowspan="3">566호</td><td>30명</td>
+			</tr>
+			<tr>
+				<td>중회의실2</td><td>28명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td rowspan="2">456호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>소회의실3</td><td>10명</td>
+			</tr>
+			<tr>
+				<td>5동</td><td>영상회의실</td><td>617호</td><td>43명</td>
+			</tr>
+			<tr>
+				<td rowspan="4">6동</td><td>다목적홀</td><td>331호</td><td>300명(입식)</td>
+			</tr>
+			<tr>
+				<td>대회의실</td><td rowspan="3">443호</td><td>108명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td><td>32명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td><td>20명</td>
+			</tr>
+		</tbody>
+	</table>	
+</section>
+
+<!-- 7, 8동 회의실 -->
+<section class="sec" data-role="page" id="7~8">
+	<!-- 단계 선택 내비게이션 바(div~/div) -->
+	<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#1~6">1~6동</a></li>
+			<li><a href="#7~8" class="ui-btn-active ui-state-persist">7, 8동</a></li>
+			<li><a href="#9~15">9~15동</a></li>
+			<li><a href="#16~17">16, 17동</a></li>
+		</ul>
+	</div>
+	<h4>
+	&nbsp;&nbsp;&nbsp;☏ <a href="tel:044-203-1146">044-203-1146</a><br>		
+	&nbsp;&nbsp;&nbsp;이용가능 시간 09:00~18:00
+	</h4>	
+	<table>
+	<caption>&nbsp;&nbsp;&nbsp;◈ 7, 8동 회의실 안내</caption>	
+		<!-- column 간격 설정 -->
+		<colgroup>
+			<col width="20%">
+			<col width="33%">
+			<col width="28%">
+			<col width="*%">
+		</colgroup>		
+		<thead>
+			<tr><th>구분</th><th>회의실</th><th>위치</th><th>수용인원</th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="9">7동</td><td>대회의실</td><td>204호</td><td>72명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td><td>207호</td><td>10명</td>
+			</tr>
+			<tr>
+				<td>중회의실2</td><td>209호</td><td>10명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td><td>211호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>212호</td><td>9명</td>
+			</tr>
+			<tr>
+				<td>소회의실3</td><td>213호</td><td>18명</td>
+			</tr>
+			<tr>
+				<td>소회의실4</td><td>210호</td><td>10명</td>
+			</tr>
+			<tr>
+				<td>어학실</td><td>214호</td><td>18명</td>
+			</tr>
+			<tr>
+				<td>영상회의실</td><td>203호</td><td>34명</td>
+			</tr>
+			<tr>
+				<td>8동</td><td>다목적홀</td><td>106호</td><td>500명</td>
+			</tr>
+		</tbody>
+	</table>	
+</section>
+
+<!-- 9~15동 회의실 -->
+<section class="sec" data-role="page" id="9~15">
+	<!-- 단계 선택 내비게이션 바(div~/div) -->
+	<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#1~6">1~6동</a></li>
+			<li><a href="#7~8">7, 8동</a></li>
+			<li><a href="#9~15" class="ui-btn-active ui-state-persist">9~15동</a></li>
+			<li><a href="#16~17">16, 17동</a></li>
+		</ul>
+	</div>
+	<h4>
+	&nbsp;&nbsp;&nbsp;☏ <a href="tel:044-203-1146">044-203-1146</a><br>		
+	&nbsp;&nbsp;&nbsp;이용가능 시간 09:00~18:00
+	</h4>	
+	<table>
+	<caption>&nbsp;&nbsp;&nbsp;◈ 9~15동 회의실 안내</caption>	
+		<!-- column 간격 설정 -->
+		<colgroup>
+			<col width="18%">
+			<col width="31%">
+			<col width="31%">
+			<col width="*%">
+		</colgroup>		
+		<thead>
+			<tr><th>구분</th><th>회의실</th><th>위치</th><th>수용인원</th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="3">9동</td><td>중회의실1</td><td>103호</td><td>26명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td><td>102호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>104호</td><td>24명</td>
+			</tr>
+			<tr>
+				<td rowspan="5">11동</td><td>대회의실<td>203호</td><td>88명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td><td>106호</td><td>33명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td><td>104호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>105호</td><td>24명</td>
+			</tr>
+			<tr>
+				<td>소희의실3</td><td>204호</td><td>24명</td>
+			</tr>
+			<tr>
+				<td>12동</td><td>대강당</td><td>203호</td><td>490명</td>
+			</tr>
+			<tr>
+				<td rowspan="8">13동</td><td>다목적홀</td><td>440호</td><td>300명</td>
+			</tr>
+			<tr>
+				<td>대회의실</td><td>555호</td><td>156명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td><td>551호</td><td>56명</td>
+			</tr>
+			<tr>
+				<td>중회의실2</td><td>557호</td><td>28명</td>
+			<tr>
+				<td>중회의실3</td><td>627호</td><td>35명</td>
+			</tr>
+			<tr>
+				<td>소희의실1</td><td>624호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>625호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>소희의실3</td><td>626호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td rowspan="6">14동</td><td>대회의실</td><td>425호</td><td>108명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td><td>428호</td><td>23명</td>
+			</tr>
+			<tr>
+				<td>중회의실2</td><td>429호</td><td>22명</td>
+			</tr>
+			<tr>
+				<td>중회의실3</td><td>303호</td><td>45명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td><td>426호</td><td>16명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>322호</td><td>20명</td>
+			</tr>
+			<tr>
+				<td>15동</td><td>대강당</td><td>강당동 109호</td><td>292명</td>
+			</tr>
+		</tbody>
+	</table>	
+</section>
+
+<!-- 16, 17동 회의실 -->
+<section class="sec" data-role="page" id="16~17">
+	<!-- 단계 선택 내비게이션 바(div~/div) -->
+	<div data-role="navbar" data-position="fixed">
+		<ul>
+			<li><a href="#1~6">1~6동</a></li>
+			<li><a href="#7~8">7, 8동</a></li>
+			<li><a href="#9~15">9~15동</a></li>
+			<li><a href="#16~17" class="ui-btn-active ui-state-persist">16, 17동</a></li>
+		</ul>
+	</div>
+	<h4>
+	&nbsp;&nbsp;&nbsp;☏ <a href="tel:044-204-1317">044-204-1317</a><br>		
+	&nbsp;&nbsp;&nbsp;이용가능 시간 09:00~18:00
+	</h4>	
+	<table>
+	<caption>&nbsp;&nbsp;&nbsp;◈ 2청사(16, 17동) 회의실 안내</caption>	
+		<!-- column 간격 설정 -->
+		<colgroup>
+			<col width="20%">
+			<col width="33%">
+			<col width="28%">
+			<col width="*%">
+		</colgroup>		
+		<thead>
+			<tr><th>구분</th><th>회의실</th><th>위치</th><th>수용인원</th></tr>
+		</thead>
+		<tbody>
+			<tr>
+				<td rowspan="11">16동</td><td>대강당</td><td>325호</td><td>348명</td>
+			</tr>
+			<tr>
+				<td>다목적홀</td><td>223호</td><td>300명</td>
+			</tr>
+			<tr>
+				<td>대회의실</td><td>216호</td><td>130명</td>
+			</tr>
+			<tr>
+				<td>영상회의실</td><td>219호</td><td>53명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td><td>214호</td><td>16명</td>
+			</tr>
+			<tr>
+				<td>중회의실2</td><td>328호</td><td>29명</td>
+			</tr>
+			<tr>
+				<td>소희의실1</td><td>212호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>211호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실3</td><td>210호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실4</td><td>327호</td><td>18명</td>
+			</tr>
+			<tr>
+				<td>소회의실5</td><td>331호</td><td>18명</td>
+			</tr>
+			<tr>
+				<td rowspan="12">17동</td><td>소강당</td><td>205호</td><td>142명</td>
+			</tr>
+			<tr>
+				<td>어학실</td><td>330호</td><td>40명</td>
+			</tr>
+			<tr>
+				<td>중회의실1</td><td>224호</td><td>25명</td>
+			</tr>
+			<tr>
+				<td>중회의실2</td><td>233호</td><td>19명</td>
+			</tr>
+			<tr>
+				<td>중회의실3</td><td>327호</td><td>12명</td>
+			</tr>
+			<tr>
+				<td>소회의실1</td><td>223호</td><td>10명</td>
+			</tr>
+			<tr>
+				<td>소회의실2</td><td>222호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실3</td><td>236호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실4</td><td>234호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실5</td><td>235호</td><td>14명</td>
+			</tr>
+			<tr>
+				<td>소회의실6</td><td>328호</td><td>18명</td>
+			</tr>
+			<tr>
+				<td>소회의실7</td><td>329호</td><td>18명</td>
+			</tr>
+		</tbody>
+	</table>	
+</section>
+</body>
+</html>
